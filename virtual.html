@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+  />
+  <link
+    href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
+    rel="stylesheet"
+  />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/virtual.css">
+    <title>Virtualt</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+          <a href="./Index.html" class="navbar-brand">Home</a>
+        </div>
+      </nav>
+
+    <div class="row m-md-5 m-3 ">
+        <div class="col-lg-4 bg-blue py-5 px-5">
+            <h4 class="text-center text-white mb-4">Contact Details</h4>
+            <div class="row">
+                <div class=" col-lg-4 col-md-5 offset-lg-0 offset-md-2 col-4 ">
+                    <p class="fw-bold">Call Us:</p>
+                </div>
+                <div class=" col-lg-8 col-md-5 col-8">
+                    <p>+234 9030907219</p>
+                </div>
+                <div class=" col-lg-4 col-md-5 offset-lg-0 offset-md-2 col-4">
+                    <p class="fw-bold">Location:</p>
+                </div>
+                <div class=" col-lg-8 col-md-5 col-8">
+                    <p> 50 Main st Ontario CA</p>
+                </div>
+                <div class=" col-lg-4 col-md-5 offset-lg-0 offset-md-2 col-4">
+                    <p class="fw-bold">Work hours:</p>
+                </div>
+                <div class=" col-lg-8 col-md-5 col-8">
+                    <p class="">Monday-Friday 8:00AM-8:00PM Sunday-closed</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 bg-red py-5 px-5">
+            <form action="">
+                <h4 class="text-center text-white mb-4">Make An Appointment</h4>
+                <div class="row">
+                    <div class="col-md-6 col-12 my-md-0 my-2">
+                        <input type="text" class="form-control bg-darkred" placeholder="Your Full Name">
+                    </div>
+                    <div class="col-md-6 col-12 my-md-0 my-2 ">
+                        <input type="email" class="form-control bg-darkred" placeholder="Your Email">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-12 my-2">
+                        <input type="text" class="form-control bg-darkred" placeholder="Your Phone Number">
+                    </div>
+                    <div class="col-md-6 col-12 my-2">
+                        <select name="" id="dropDown" class="form-control bg-darkred shadow-none">
+                            <option value="" hidden selected>Services</option>
+                            <option value="service 1">Service 1</option>
+                            <option value="service 1">Service 2</option>
+                            <option value="service 1">Service 3</option>
+                        </select>
+                    </div>
+                    <div class="">
+                        <textarea cols="10" rows="3" class="form-control bg-darkred shadow-none"
+                            placeholder="Message"></textarea>
+                    </div>
+                    <div class=" my-2"> 
+
+                        <a href="./Submit.html">
+                            <button class="btn w-100 shadow-none text-uppercase msg-btn">
+                                Send Message
+                          </button>
+                        </a>
+
+                    </div>
+
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-4 bg-blue py-5 px-5">
+            <h4 class="text-center text-white mb-4">More Services</h4>
+            <div class="col">
+                <p class="">in-person coding bootcamps the way to go for most students. These pros make in-person bootcamps a better choice for you. If you are considering joining a coding bootcamp, consider Frontend Coding Academy.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+          <p class="lead">Copyright &copy; 2023 Frontend Bootcamp</p>
+        </div>
+      </footer>
+
+</body>
+</html>

@@ -12,10 +12,11 @@ if (hourNow > 18){
     greeting = `welcome`;
 }
 
-var namep = `User`;
+var text = document.getElementById("text");
+text.textContent = greeting;
 
 //console.log(alert(greeting));
-document.write(`<h2>`,greeting ,` </h2>` ,`<h2>`,namep , `</h2>`)
+
 
 // Get the modal
 var modal = document.getElementById("myModal");
